@@ -1,0 +1,36 @@
+*
+{
+box-sizing: border-box;
+}
+main
+{
+    background-image: url(../images/bg-body.png);
+}
+ul
+{
+    padding: 0px;
+    margin: 0px;
+    
+}
+li
+{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    color: black;
+    
+}
+.a-bus
+{
+    text-decoration: none;
+    color: black;
+    text-align: right;
+}
+.nav-bus
+{
+   display:flex;
+   flex-wrap: wrap; 
+   flex-direction: row;
+   justify-content: flex-end;
+   
+}
