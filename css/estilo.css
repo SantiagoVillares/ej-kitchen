@@ -16,7 +16,7 @@ li
 {
     list-style-type: none;
     display: inline-block;
-    padding: 15px;
+    padding: 20px;
     color: black;
     
 }
@@ -33,4 +33,118 @@ li
    flex-direction: row;
    justify-content: flex-end;
    
+}
+.log
+{
+  border-radius: 180px;
+  display: flex;
+  
+}
+.img
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.boton
+{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+}
+.boton2
+{
+    display: flex;
+    background-color: #444;
+    margin-right: 20px;   
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.lis-bot
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 180px;
+}
+.headers
+{
+    color:white;
+}
+.banner
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.pollo
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1180px;
+}
+.contenido
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center
+}
+p{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: #666;
+}
+.articulos
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 380px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.VER
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 180px;
+}
+.articulo
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 380px;
+    margin-bottom: 30px;  
+}
+footer
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:  rgb(200,0,0);
+    width: 1180px;
+}
+.text
+{
+    color:white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:  rgb(200,0,0);
+    width: 1180px;
 }
